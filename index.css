@@ -1,0 +1,85 @@
+
+header{
+    padding: 24px 5px 90px 13px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;;
+}
+.wrapper{
+    width: 1200;
+    margin: auto;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+
+body{
+    margin: 0;
+}
+img{
+    width: 16%;
+    position: relative;
+    top: -16px
+}
+nav{
+    width: 50%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 17px;
+    font-weight: 600;
+    color: #fb7c24;
+}
+.introSec{
+    text-align: center;
+    padding: 30px;
+}
+.introSec h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #fb7c24;
+}
+.introSec h1 span{
+    color: #be5004;
+}
+.introSec p{
+    font-size: 25px;
+    color: #fb7c24;
+}
+.imgSec img{
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+.featureSec{
+    padding: 100px 0px;
+}
+.colom{
+    width: 50%;
+    float: left;
+}
+.Text{
+    text-align:right;
+    font-size: 30px;
+    padding: 0px 7px;
+}
+.Text h1{
+    color: #fb7c24;
+}
+.Text h1 span{
+    color: #be5004;
+}
+.Text p{
+    color: #be5004;
+}
+.Text p span{
+    color: #fb7c24;
+}

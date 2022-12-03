@@ -1,7 +1,11 @@
 
 header{
-    padding: 24px 5px 90px 13px;
-    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 24px 0px 0px 13px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    background-color: white;
 }
 .wrapper{
     width: 1200;
@@ -15,8 +19,8 @@ header{
 body{
     margin: 0;
 }
-img{
-    width: 16%;
+.logo img{
+    width: 13%;
     position: relative;
     top: -16px
 }
@@ -46,6 +50,7 @@ nav ul li a{
     font-size: 70px;
     text-transform: capitalize;
     color: #fb7c24;
+    padding: 90px 0px 0px 0px;
 }
 .introSec h1 span{
     color: #be5004;
@@ -58,6 +63,7 @@ nav ul li a{
     width: 60%;
     display: block;
     margin: auto;
+    border-radius: 10px;
 }
 .featureSec{
     padding: 100px 0px;
@@ -82,4 +88,72 @@ nav ul li a{
 }
 .Text p span{
     color: #fb7c24;
+}
+.cardSec{
+    padding: 400px 0px 673px 0px;
+}
+.box{
+    width: 33.33%;
+    float: left;
+}
+.blog{
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.272) 0px 5px 15px;
+}
+.box img{
+    max-width: 100%;
+    max-height: 300px;
+    width: 100%
+}
+.red{
+background-color: #ffcdaa;
+}
+.blue{
+    background-color: #d4eff6;
+}
+.green{
+    background-color: #69c65c;
+}
+.box h3{
+    font-size: 30px;
+    color: #fb7c24;
+}
+.box p{
+    font-size: 20px;
+    color: #be5004;
+}
+.blog:hover {
+    transition: all 0.5s ease;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.505) 0px 5px 15px;
+}
+.footSec{
+    width: 25%;
+    float: left;
+    
+    
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.347);
+    padding: 96px 0px 389px 21px;
+}
+.footSec h4{
+    color: #be5004;
+    font-size: 30px;
+}
+.footSec ul{
+    list-style: none;
+    padding: 0;
+}
+.footSec ul li a{
+    text-decoration: none;
+    color: #fb7c24;
+    
+}
+.footSec ul li{
+    color: #fb7c24;
+    font-size: 20px;
+    line-height: 31px;
 }
